@@ -1,0 +1,15 @@
+1.Create a  Context as below
+export  const Datacontext=CreateContext(null)
+
+
+2.warp the  children with context provider
+
+const data={name:"shamim"}
+
+<DataContext.provider value={}>
+<childrenComponent value={data}/>
+</DataContext.provider>
+
+
+3.Access Context value
+const contextData
